@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+:root {
+  --main-color: #1090cb;
+  --hover-color: #0c638b;
+  --cover-color: #0f90cb1a;
+}
+
+.active {
+  color: var(--main-color, 25) !important;
+  position: relative;
+}
+
+.shape {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgb(253.3, 255, 233.75) 0%,
+    rgba(196, 196, 196, 0) 100%
+  );
+
+  /* background-color: red; */
+}
+
+.swiper-pagination-bullet {
+  transition: 0.3s !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 16px !important;
+  background-color: red !important;
+  height: 8px !important;
+  border-radius: 10px !important;
+  transition: 0.3s !important;
+}
+
+.screen {
+  height: calc(100vh - 76px);
+}
+
+.point::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  border-radius: 50%;
+}
