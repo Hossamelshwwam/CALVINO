@@ -3,7 +3,11 @@ import About from "./Components/About/About";
 import Home from "./Components/Home/Home";
 import Layout from "./Components/Layout";
 import "../node_modules/preline/dist/preline";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import {
+  RouterProvider,
+  createBrowserRouter,
+  createHashRouter,
+} from "react-router-dom";
 import Services from "./Components/Services/Services";
 import Contact from "./Components/Contact/Contact";
 import Blog from "./Components/Blog/Blog";
@@ -39,7 +43,7 @@ function App() {
     };
   });
 
-  const route = createBrowserRouter([
+  const route = createHashRouter([
     {
       path: "/",
       element: <Layout />,
