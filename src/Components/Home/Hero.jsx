@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="space-y-4 flex-1 sm:text-center lg:text-left z-10 relative">
           <h1 className="font-semibold text-3xl xl:text-[36px] xl:leading-[3.5rem] sm:leading-[3rem] mb-6 md:text-left text-center">
             Experienced
-            <span className="text-[--main-color]"> mobile and web</span>
+            <span className="text-[--main-color]"> mobile and web </span>
             applications and website builders measuring.
           </h1>
           <p className="text-[#5c5c5c] max-w-xl leading-9 sm:mx-auto lg:ml-0 font-normal md:text-left text-center">
