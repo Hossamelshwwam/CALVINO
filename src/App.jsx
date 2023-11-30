@@ -43,7 +43,7 @@ function App() {
     };
   });
 
-  const route = createBrowserRouter([
+  const route = createHashRouter([
     {
       path: "/",
       element: <Layout />,
