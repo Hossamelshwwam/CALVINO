@@ -7,14 +7,25 @@ const Hero = ({ width }) => {
         width <= 992 ? "min-h-screen" : "screen"
       } py-10 text-center`}
     >
-      <p className="text-5xl font-bold mb-10">Latest news</p>
-      <p className="text-5xl font-bold text-[--main-color] mb-14">Updates</p>
-      <p className="max-w-[432px] mx-auto text-xl text-gray-400 mb-14">
+      <p className="text-5xl font-bold mb-10" data-aos="flip-left">
+        Latest news
+      </p>
+      <p
+        className="text-5xl font-bold text-[--main-color] mb-14"
+        data-aos="flip-down"
+      >
+        Updates
+      </p>
+      <p
+        className="max-w-[432px] mx-auto text-xl text-gray-400 mb-14"
+        data-aos="zoom-in"
+      >
         Lorem Ipsum is simply dummy text of the printing .
       </p>
       <form
         onSubmit={(e) => e.preventDefault()}
         className="max-w-md px-4 mx-auto mb-20"
+        data-aos="zoom-right"
       >
         <div className="relative">
           <svg
@@ -39,19 +50,34 @@ const Hero = ({ width }) => {
         </div>
       </form>
       <div className="flex flex-wrap justify-center sm:gap-5 gap-y-5 gap-x-2 container">
-        <p className="rounded-full sm:px-8 px-5 py-4 bg-[#E7EFF3] text-[--main-color] cursor-default">
+        <p
+          className="rounded-full sm:px-8 px-5 py-4 bg-[#E7EFF3] text-[--main-color] cursor-default"
+          data-aos="zoom-in"
+        >
           Lorem ipsum
         </p>
-        <p className="rounded-full sm:px-8 px-5 py-4 bg-[#E7EFF3] text-[--main-color] cursor-default">
+        <p
+          className="rounded-full sm:px-8 px-5 py-4 bg-[#E7EFF3] text-[--main-color] cursor-default"
+          data-aos="zoom-in"
+        >
           Lorem ipsum
         </p>
-        <p className="rounded-full sm:px-8 px-5 py-4 bg-[#E7EFF3] text-[--main-color] cursor-default">
+        <p
+          className="rounded-full sm:px-8 px-5 py-4 bg-[#E7EFF3] text-[--main-color] cursor-default"
+          data-aos="zoom-in"
+        >
           Lorem ipsum
         </p>
-        <p className="rounded-full sm:px-8 px-5 py-4 bg-[#E7EFF3] text-[--main-color] cursor-default">
+        <p
+          className="rounded-full sm:px-8 px-5 py-4 bg-[#E7EFF3] text-[--main-color] cursor-default"
+          data-aos="zoom-in"
+        >
           Lorem ipsum
         </p>
-        <p className="rounded-full sm:px-8 px-5 py-4 bg-[--main-color] text-[#E7EFF3] cursor-default">
+        <p
+          className="rounded-full sm:px-8 px-5 py-4 bg-[--main-color] text-[#E7EFF3] cursor-default"
+          data-aos="zoom-in"
+        >
           Lorem ipsum
         </p>
       </div>

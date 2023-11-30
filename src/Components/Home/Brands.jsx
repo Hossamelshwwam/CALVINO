@@ -6,21 +6,24 @@ import brand4 from "../../images/leotrippi.png";
 const Brands = () => {
   return (
     <section className="text-gray-600 body-font py-20 container">
-      <p className="text-2xl text-center font-semibold text-black">
+      <p
+        className="text-2xl text-center font-semibold text-black"
+        data-aos="zoom-out"
+      >
         You will be in good Company
       </p>
       <div className="container px-5 pt-10 mx-auto">
         <div className="flex flex-wrap -m-4 text-center">
-          <div className="p-4 sm:w-1/4 w-1/2">
+          <div className="p-4 sm:w-1/4 w-1/2" data-aos="fade-left">
             <img src={brand1} alt="" />
           </div>
-          <div className="p-4 sm:w-1/4 w-1/2">
+          <div className="p-4 sm:w-1/4 w-1/2" data-aos="fade-up">
             <img src={brand2} alt="" />
           </div>
-          <div className="p-4 sm:w-1/4 w-1/2">
+          <div className="p-4 sm:w-1/4 w-1/2" data-aos="fade-down">
             <img src={brand3} alt="" />
           </div>
-          <div className="p-4 sm:w-1/4 w-1/2">
+          <div className="p-4 sm:w-1/4 w-1/2" data-aos="fade-right">
             <img src={brand4} alt="" />
           </div>
         </div>

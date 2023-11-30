@@ -8,7 +8,7 @@ const Features = () => {
     <div className="bg-white py-6 sm:py-8 lg:py-12 border-b">
       <div className="container ">
         <div className="grid gap-8 sm:grid-cols-2 md:gap-12 xl:grid-cols-4 xl:gap-4">
-          <div className="flex gap-4 md:gap-6">
+          <div className="flex gap-4 md:gap-6" data-aos="flip-left">
             <div className="flex shrink-0 items-center justify-center rounded-lg bg-[#EFEAFF] text-white shadow-lg h-20 w-20 md:rounded-xl">
               <img src={icon3} alt="" />
             </div>
@@ -20,7 +20,10 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="flex gap-4 md:gap-6 items-center">
+          <div
+            className="flex gap-4 md:gap-6 items-center"
+            data-aos="flip-right"
+          >
             <div className="flex shrink-0 items-center justify-center rounded-lg bg-[#ECFFDA] text-white shadow-lg h-20 w-20 md:rounded-xl">
               <img src={icon1} alt="" />
             </div>
@@ -30,7 +33,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="flex gap-4 md:gap-6">
+          <div className="flex gap-4 md:gap-6" data-aos="flip-left">
             <div className="flex shrink-0 items-center justify-center rounded-lg bg-[#d9e6ff] text-white shadow-lg h-20 w-20 md:rounded-xl">
               <img src={icon4} alt="" />
             </div>
@@ -42,7 +45,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="flex gap-4 md:gap-6">
+          <div className="flex gap-4 md:gap-6" data-aos="flip-right">
             <div className="flex shrink-0 items-center justify-center rounded-lg bg-[#FFE5DA] text-white shadow-lg h-20 w-20 md:rounded-xl">
               <img src={icon2} alt="" />
             </div>

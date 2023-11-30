@@ -7,10 +7,13 @@ const Section = () => {
     <section className="py-14 container">
       <div className="sm:px-16">
         <div className="flex items-center gap-x-12 sm:px-4 md:px-0 flex-col lg:flex-row">
-          <div className="flex-1">
+          <div className="flex-1" data-aos="fade-right">
             <img src={image} className="md:max-w-lg" alt="" />
           </div>
-          <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl lg:text-left text-center">
+          <div
+            className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl lg:text-left text-center"
+            data-aos="fade-left"
+          >
             <p className="text-gray-800 text-[24px] font-semibold leading-[3rem] mb-7">
               Lorem Ipsum is simply dummy text of the printing.
             </p>

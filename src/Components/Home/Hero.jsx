@@ -2,15 +2,16 @@ import heroImage from "../../images/Bill Sitting using laptop 1.png";
 import Image1 from "../../images/Big Plant 1.png";
 import Image2 from "../../images/Cuboid 1.png";
 import Image3 from "../../images/Succlent angle 1.png";
-import vector1 from "../../images/Vector 1.png";
-import vector2 from "../../images/Vector 2.png";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
     <div className="bg-[--cover-color] relative">
       <section className="items-center screen flex container gap-6">
-        <div className="space-y-4 flex-1 sm:text-center lg:text-left z-10 relative">
+        <div
+          className="space-y-4 flex-1 sm:text-center lg:text-left z-10 relative"
+          data-aos="fade-right"
+        >
           <h1 className="font-semibold text-3xl xl:text-[36px] xl:leading-[3.5rem] sm:leading-[3rem] mb-6 md:text-left text-center">
             Experienced
             <span className="text-[--main-color]"> mobile and web </span>
@@ -34,7 +35,10 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className=" text-center flex-1 mt-7 lg:mt-0 lg:ml-3 relative z-10 lg:block hidden">
+        <div
+          className=" text-center flex-1 mt-7 lg:mt-0 lg:ml-3 relative z-10 lg:block hidden"
+          data-aos="fade-left"
+        >
           <img
             alt="Bill sitting using"
             src={heroImage}
@@ -51,16 +55,6 @@ const Hero = () => {
       </section>
       <div className="shape top-0 left-0 md:block hidden"></div>
       <div className="shape top-0 right-5  md:block hidden"></div>
-      <img
-        src={vector1}
-        alt=""
-        className="absolute top-[150px] -right-[430px] sm:block hidden"
-      />
-      <img
-        src={vector2}
-        alt=""
-        className="absolute top-[40%] right-[95%] sm:block hidden"
-      />
     </div>
   );
 };

@@ -9,7 +9,7 @@ import profile3 from "../../images/Ellipse 7 (2).png";
 const Blogs = () => {
   return (
     <div className="grid xl:grid-cols-3 gap-20 md:grid-cols-2 container sm:py-40 py-20">
-      <div className="md:text-left text-center">
+      <div className="md:text-left text-center" data-aos="fade-right">
         <div className="w-fit mx-auto">
           <img src={image3} className="mb-10" />
         </div>
@@ -29,7 +29,7 @@ const Blogs = () => {
           </div>
         </div>
       </div>
-      <div className="md:text-left text-center">
+      <div className="md:text-left text-center" data-aos="fade-down">
         <div className="w-fit mx-auto">
           <img src={image2} className="mb-10 " />
         </div>
@@ -49,7 +49,7 @@ const Blogs = () => {
           </div>
         </div>
       </div>
-      <div className="md:text-left text-center">
+      <div className="md:text-left text-center" data-aos="fade-left">
         <div className="w-fit mx-auto">
           <img src={image1} className="mb-10" />
         </div>
@@ -69,7 +69,7 @@ const Blogs = () => {
           </div>
         </div>
       </div>
-      <div className="md:text-left text-center">
+      <div className="md:text-left text-center" data-aos="fade-right">
         <div className="w-fit mx-auto">
           <img src={image3} className="mb-10" />
         </div>
@@ -89,7 +89,7 @@ const Blogs = () => {
           </div>
         </div>
       </div>
-      <div className="md:text-left text-center">
+      <div className="md:text-left text-center" data-aos="fade-down">
         <div className="w-fit mx-auto">
           <img src={image2} className="mb-10" />
         </div>
@@ -109,7 +109,7 @@ const Blogs = () => {
           </div>
         </div>
       </div>
-      <div className="md:text-left text-center">
+      <div className="md:text-left text-center" data-aos="fade-left">
         <div className="w-fit mx-auto">
           <img src={image1} className="mb-10" />
         </div>

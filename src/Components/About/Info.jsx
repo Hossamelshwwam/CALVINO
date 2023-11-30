@@ -10,6 +10,7 @@ const Info = ({ width }) => {
   return (
     <div className="grid grid-cols-5 gap-10 ">
       <div
+        data-aos="fade-right"
         className={`${
           width <= 1200 ? "container" : "pl-40"
         } relative flex-1 py-5 xl:col-span-2 col-span-full`}
@@ -31,6 +32,7 @@ const Info = ({ width }) => {
         </Link>
       </div>
       <div
+        data-aos="fade-left"
         className={`${
           width <= 1200 ? "container" : null
         } flex-1 p-10 xl:col-span-3 col-span-full`}

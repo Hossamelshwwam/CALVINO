@@ -2,7 +2,7 @@ import React from "react";
 
 const Text = () => {
   return (
-    <div className="py-20 pb-40 container">
+    <div className="py-20 pb-40 container" data-aos="flip-up">
       <p className="text-[--main-color] sm:text-[45px] text-2xl lg:w-9/12 sm:leading-[60px] font-semibold mb-10">
         Lorem Ipsum is simply dummy text of the printing.
       </p>

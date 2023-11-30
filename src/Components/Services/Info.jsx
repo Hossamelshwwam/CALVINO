@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Info = () => {
   return (
     <div className="md:pt-96 md:pb-40 py-20 container gap-10 flex">
-      <div className="flex-1">
+      <div className="flex-1" data-aos="fade-right">
         <p className="text-3xl leading-[3.5rem] font-semibold mb-10">
           <span className="text-[--main-color]">Lorem Ipsum</span> is simply
           dummy text of the printing.
@@ -28,7 +28,7 @@ const Info = () => {
           Contact Us
         </Link>
       </div>
-      <div className="flex-1 md:block hidden">
+      <div className="flex-1 md:block hidden" data-aos="zoom-out">
         <img src={Image} alt="" />
       </div>
     </div>

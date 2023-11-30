@@ -7,23 +7,23 @@ const Status = () => {
     <section className="text-white body-font bg-[--main-color]">
       <div className="container px-5 py-32 mx-auto relative">
         <div className="flex flex-wrap text-center gap-y-10">
-          <div className="sm:w-1/4 w-1/2">
+          <div className="sm:w-1/4 w-1/2" data-aos="flip-left">
             <h2 className="title-font font-semibold md:text-6xl text-4xl">6</h2>
             <p className="leading-relaxed">Happy Clients</p>
           </div>
-          <div className="sm:w-1/4 w-1/2">
+          <div className="sm:w-1/4 w-1/2" data-aos="flip-up">
             <h2 className="title-font font-semibold md:text-6xl text-4xl">
               11
             </h2>
             <p className="leading-relaxed">Completed Projects</p>
           </div>
-          <div className="sm:w-1/4 w-1/2">
+          <div className="sm:w-1/4 w-1/2" data-aos="flip-right">
             <h2 className="title-font font-semibold md:text-6xl text-4xl">
               7M
             </h2>
             <p className="leading-relaxed">Transactions</p>
           </div>
-          <div className="sm:w-1/4 w-1/2">
+          <div className="sm:w-1/4 w-1/2" data-aos="flip-down">
             <h2 className="title-font font-semibold md:text-6xl text-4xl">
               6000+
             </h2>

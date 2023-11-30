@@ -2,7 +2,10 @@ import ring from "../../images/Bell Angle 1.png";
 
 const Card = () => {
   return (
-    <div className="flex flex-wrap lg:flex-nowrap container gap-20 justify-center py-20">
+    <div
+      className="flex flex-wrap lg:flex-nowrap container gap-20 justify-center py-20"
+      data-aos="zoom-out"
+    >
       <div className="card bg-gray-300 p-10 py-16 rounded-xl text-center md:max-w-full max-w-[500px]">
         <p className="text-2xl  mb-10">Lorem Ipsum is simply dummy text.</p>
         <p className="text-sm text-gray-500 mb-10">
@@ -18,7 +21,7 @@ const Card = () => {
           View More
         </button>
       </div>
-      <div className="card bg-[--main-color] px-10 py-16 rounded-xl text-center relative max-w-[500px] md:max-w-full ">
+      <div className="card bg-[--main-color] px-10 py-16 rounded-xl text-center relative max-w-[500px] md:max-w-full">
         <p className="text-2xl  mb-10 text-white">
           Lorem Ipsum is simply dummy text.
         </p>

@@ -1,11 +1,11 @@
-
-
 const Form = () => {
   return (
     <div className="bg-[--cover-color] py-20">
       <div className="container">
-        <p className="text-3xl text-center mb-5">Say hello</p>
-        <p className="text-gray-400 text-center mb-20">
+        <p className="text-3xl text-center mb-5" data-aos="zoom-in">
+          Say hello
+        </p>
+        <p className="text-gray-400 text-center mb-20" data-aos="zoom-out">
           Lorem Ipsum is simply dummy text of the printing .
         </p>
         {/* form - start */}
@@ -15,7 +15,7 @@ const Form = () => {
             e.preventDefault();
           }}
         >
-          <div>
+          <div data-aos="fade-right">
             <label
               htmlFor="first-name"
               className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
@@ -27,7 +27,7 @@ const Form = () => {
               className="w-full rounded-lg border bg-gray-50 px-3 py-3 text-gray-800 outline-none ring-[--main-color] transition duration-300 focus:ring"
             />
           </div>
-          <div>
+          <div data-aos="fade-left">
             <label
               htmlFor="last-name"
               className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
@@ -39,7 +39,7 @@ const Form = () => {
               className="w-full rounded-lg border bg-gray-50 px-3 py-3 text-gray-800 outline-none ring-[--main-color] transition duration-300 focus:ring"
             />
           </div>
-          <div className="sm:col-span-2">
+          <div className="sm:col-span-2" data-aos="zoom-out">
             <label
               htmlFor="email"
               className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
@@ -51,7 +51,7 @@ const Form = () => {
               className="w-full rounded-lg border bg-gray-50 px-3 py-3 text-gray-800 outline-none ring-[--main-color] transition duration-300 focus:ring"
             />
           </div>
-          <div className="sm:col-span-2">
+          <div className="sm:col-span-2" data-aos="flip-down">
             <label
               htmlFor="message"
               className="mb-2 inline-block text-sm text-gray-800 sm:text-base"
@@ -65,7 +65,10 @@ const Form = () => {
             />
           </div>
           <div className="flex items-center justify-end sm:col-span-2">
-            <button className="inline-block rounded-lg bg-[--main-color] px-8 py-3 text-center text-sm font-semibold ring-teal-400 hover:ring text-white outline-none transition duration-300 hover:bg-[--hover-color] focus-visible:ring md:text-base">
+            <button
+              data-aos="flip-up"
+              className="inline-block rounded-lg bg-[--main-color] px-8 py-3 text-center text-sm font-semibold ring-teal-400 hover:ring text-white outline-none transition duration-300 hover:bg-[--hover-color] focus-visible:ring md:text-base"
+            >
               Get in touch
             </button>
           </div>

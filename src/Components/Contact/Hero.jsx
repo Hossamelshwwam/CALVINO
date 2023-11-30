@@ -17,17 +17,23 @@ const Hero = () => {
     <div className={`screen container py-10`}>
       <div className="lg:flex justify-between items-center mb-20">
         <div className="flex-1 text-center lg:text-left">
-          <div className="w-14 h-14 bg-red-100 rounded-full flex justify-center items-center mb-7 p-2 lg:mx-0 mx-auto">
+          <div
+            className="w-14 h-14 bg-red-100 rounded-full flex justify-center items-center mb-7 p-2 lg:mx-0 mx-auto"
+            data-aos="flip-down"
+          >
             <img src={face} alt="" />
           </div>
-          <h1 className="text-[45px] font-semibold mb-7">
+          <h1 className="text-[45px] font-semibold mb-7" data-aos="fade-right">
             Let&apos;s Collaborate
           </h1>
-          <p className="text-gray-400 text-[20px] leading-10 lg:w-[437px]">
+          <p
+            className="text-gray-400 text-[20px] leading-10 lg:w-[437px]"
+            data-aos="zoom-out"
+          >
             Lorem Ipsum is simply dummy text of the printing .
           </p>
         </div>
-        <div className="flex-1 relative">
+        <div className="flex-1 relative" data-aos="fade-left">
           <div className="relative lg:block hidden">
             <img src={map} alt="" />
             <span className="point w-10 opacity-70 h-10 bg-red-300 absolute rounded-full left-[55%] -translate-x-1/2 bottom-7"></span>
@@ -35,7 +41,10 @@ const Hero = () => {
         </div>
       </div>
       <div className="grid lg:grid-cols-3 gap-5 gap-y-14 justify-center">
-        <div className="lg:border-r lg:block flex flex-col items-center border-gray-300">
+        <div
+          className="lg:border-r lg:block flex flex-col items-center border-gray-300"
+          data-aos="flip-down"
+        >
           <p className="font-medium mb-5">Follow us</p>
           <div className="flex gap-5">
             <div
@@ -64,13 +73,16 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center lg:border-r border-gray-300">
+        <div
+          className="flex items-center justify-center lg:border-r border-gray-300"
+          data-aos="flip-down"
+        >
           <p className="text-xl">
             <FontAwesomeIcon icon={faPhoneVolume} className="mr-5" />
             +94 4444 5555 6
           </p>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center" data-aos="flip-down">
           <p className="sm:text-xl text-center">
             <FontAwesomeIcon icon={faLocationDot} className="mr-5" />
             but also the leap into electronic typesetting
