@@ -43,7 +43,7 @@ function App() {
     };
   });
 
-  const route = createHashRouter([
+  const route = createBrowserRouter([
     {
       path: "/",
       element: <Layout />,
@@ -52,7 +52,7 @@ function App() {
         { path: "/about", element: <About width={width} /> },
         { path: "/services", element: <Services width={width} /> },
         { path: "/blog", element: <Blog width={width} /> },
-        { path: "Contact", element: <Contact width={width} /> },
+        { path: "/contact", element: <Contact width={width} /> },
       ],
     },
   ]);
